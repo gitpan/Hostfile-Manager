@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Hostfile-Manager
-version:            0.05
+version:            0.06
 abstract:           Manage a hostfile by composing multiple fragments into a whole.
 author:
     - Anthony J. Mirabella
@@ -9,19 +9,20 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    File::Basename:    0
-    File::Find:        0
-    File::Slurp:       0
-    Getopt::Long:      0
-    Moose:             0
-    Pod::Usage:        0
-    Term::Clui:        0
     Test::Class:       0
     Test::Deep:        0
     Test::Most:        0
     Test::NoWarnings:  0
+requires:
+    File::Basename:  0
+    File::Find:      0
+    File::Slurp:     0
+    Getopt::Long:    0
+    Moose:           0
+    Pod::Usage:      0
+    Term::Clui:      0
+resources:
+    repository:  git://github.com/Aneurysm9/hostfile_manager.git
 no_index:
     directory:
         - t
