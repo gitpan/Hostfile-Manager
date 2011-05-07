@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Hostfile-Manager
-version:            0.07
+version:            0.08
 abstract:           Manage a hostfile by composing multiple fragments into a whole.
 author:
     - Anthony J. Mirabella
